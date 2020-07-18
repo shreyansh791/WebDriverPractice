@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="Suite" parallel="classes">
+ 
+ <test name="FirefoxTest">
+ 
+ <classes>
+ 
+ <class name="docker.Test1" />
+ <class name="docker.Test2" />
+ <class name="docker.Test3" />
+ 
+ </classes>
+ 
+ </test>
+ 
+</suite>
